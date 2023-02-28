@@ -1,5 +1,5 @@
 {
-  "name": "nextjs",
+  "name": "hello-world",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.34.0",
-    "eslint-config-next": "13.2.1",
-    "next": "13.2.1",
+    "cheerio": "^1.0.0-rc.12",
+    "next": "latest",
+    "node-fetch": "^2.6.9",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.29.0",
+    "eslint-config-next": "latest",
+    "shadow-cljs": "^2.21.0"
   }
 }
