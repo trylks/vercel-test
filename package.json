@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@mozilla/readability": "^0.4.2",
-    "cheerio": "^1.0.0-rc.12",
+    "jsdom": "^21.1.0",
     "next": "latest",
     "node-fetch": "^2.6.9",
     "react": "18.2.0",
@@ -19,7 +19,6 @@
   },
   "devDependencies": {
     "eslint": "8.29.0",
-    "eslint-config-next": "latest",
-    "shadow-cljs": "^2.21.0"
+    "eslint-config-next": "latest"
   }
 }
