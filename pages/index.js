@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 
-
 export default function Home() {
   const [title, setTitle] = useState('');
   const [url, setURL] = useState('');
